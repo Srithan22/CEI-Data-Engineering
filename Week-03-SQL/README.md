@@ -14,3 +14,10 @@ In the mini project i found top 5 customers, bottom 5 customers, customers with 
 
 from this assignment i understood how subqueries, ctes and window functions can be used together for sales analysis and customer ranking.
 
+#brief insights
+
+few customers generated very high sales compared to others.
+some customers made only one order.
+customer ranking helped identify top performing customers.
+ctes and window functions made complex analysis easier.
+advanced sql can be used to get useful business insights from sales data.
