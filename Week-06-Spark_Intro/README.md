@@ -26,11 +26,13 @@ Steps Performed
 
 Challenges Faced
 
-I was able to read and process the dataset without any issues. However, while saving the output as Parquet or CSV, I got a storage permission error in Databricks. Because of this, I could not complete the write operation. I have informed my mentor about this issue and asked for the correct writable storage path.
+While working on the assignment, I initially faced an issue while saving the DataFrame as Parquet and CSV because the default workspace location was not writable. After discussing the issue with my mentor, I created and used a Databricks Volume as the storage location. This resolved the issue, and I was able to save the output files successfully.
 
-How I Tried to Solve It
-
-I checked my code multiple times and verified that it was correct. Then I understood that the issue was related to the Databricks workspace and not the Spark code. I am waiting for the correct storage path from my mentor to complete this step.
+How I Resolved It
+Identified that the error was related to the storage location and not the Spark code.
+Explored the available storage options in the Databricks workspace.
+Created and used a Databricks Volume (spark_volume) as the writable location.
+Successfully saved the processed data in both Parquet and CSV formats.
 
 What I Learned
 
